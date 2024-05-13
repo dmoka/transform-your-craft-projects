@@ -1,0 +1,67 @@
+/* styles.css */
+
+.domain-availability-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items vertically */
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.domain-input {
+  width: 350px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.check-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.check-button:hover {
+  background-color: #0056b3;
+}
+
+.results-list {
+  margin-top: 20px;
+  text-align: center; /* Center-align the results */
+}
+
+.results-list ul {
+  list-style-type: none; /* Hide bullets for list items */
+  margin-left: 0; /* Remove left margin */
+  padding-left: 10px; /* Add left padding for indentation */
+}
+
+.results-list li {
+  margin-bottom: 5px; /* Add spacing between list items */
+  color: #4CBB17; /* Add a darker blue color */
+  font-size: large;
+  font-weight: 600;
+}

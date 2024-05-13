@@ -1,0 +1,23 @@
+{
+  "check": [
+    {
+      "id": 1,
+      "isAvailable": true,
+      "domain": "tddrocks.com",
+      "isPremium": true,
+      "discountCode": "DISCOUNT_50"
+    },
+    {
+      "id": 2,
+      "isAvailable": true,
+      "domain": "helloengineers.com",
+      "isPremium": false,
+      "discountCode": "DISCOUNT_20"
+    },
+    {
+      "id": 3,
+      "domain": "google.com",
+      "isAvailable": false
+    }
+]
+}

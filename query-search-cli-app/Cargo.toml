@@ -1,0 +1,17 @@
+[package]
+name = "query-search-cli-app"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "2.1"
+pretty_assertions = "1.4.0"
+
+[lib]
+name = "domain"
+path = "./src/lib.rs"
+
+[[bin]]
+name = "cli"
+path = "./src/main.rs"
